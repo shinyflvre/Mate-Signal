@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[51,)"
+license="MIT"
+
+[[mods]]
+modId="matesignal"
+version="1.0.0"
+displayName="MateSignal"
+logoFile="pack.png"
+description='''This enables cross-interaction between MateEngine and Minecraft. When activated, it shows cute messages during key moments: when day or night begins, when a dangerous mob is nearby, when your health or hunger is low, when you craft something, die, the weather changes, or you go to sleep.'''
+authors="Shiny"
+
+[[dependencies.matesignal]]
+modId="forge"
+mandatory=true
+versionRange="[51,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.matesignal]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,1.22)"
+ordering="NONE"
+side="CLIENT"
